@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Assignment4</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="box1">
+            <button onclick="alrt()">Press here!!</button>
+        </div>
+
+        <div id="img">
+        <img onmouseover="largepic(this)" onmouseout="normPic(this)" src="chaeyoung.jpg" width="320px" height="400px">
+        </div>
+        <div id="txt">
+        <p id="demo" onmouseover="largetxt()" onmouseout="normtxt()">Park Chaeyoung</p>
+        </div>
+
+        <div id="email">
+            Official email: khushi_202000015@smit.smu.edu.in
+        </div>
+    </body>
+    <script>
+        function alrt()
+        {
+            alert("Name: Khushi Lamichaney Regno: 202000015");
+        }
+
+        function largepic(x)
+        {
+           x.style.width="620px";
+           x.style.height="700px";
+        }
+        function normPic(x)
+        {
+            x.style.width="320px";
+            x.style.height="400px";
+        }
+        function largetxt()
+        {
+            document.getElementById("demo").style.fontSize = "xx-large";
+            document.getElementById("demo").text.fontcolor("green");
+        }
+        function normtxt()
+        {
+            document.getElementById("demo").style.fontSize = "x-large";
+        }
+
+    </script>
+   
+    </html>
