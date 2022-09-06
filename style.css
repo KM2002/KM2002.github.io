@@ -15,7 +15,7 @@ body{
 }
 
 #email{
-    background-color:#FB93B9;
+    background-color:blueviolet;
     padding: 10px 0px 0px;
     margin: 10px 0px 0px;
     color: rgb(4, 43, 94);
@@ -23,10 +23,10 @@ body{
 }
 
 #img {
-    background-color: #d14949;
+    background-color: violet;
 }
 #txt{
-    background-color: #d14949;
+    background-color: pink;
     padding: 40px;
     color: rgb(67, 27, 133);
 }
