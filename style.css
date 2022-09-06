@@ -1,0 +1,40 @@
+button{
+    background-color: pink;
+    border:none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#email{
+    background-color:#FB93B9;
+    padding: 10px 0px 0px;
+    margin: 10px 0px 0px;
+    color: rgb(4, 43, 94);
+    border: 15px solid rgb(238, 71, 126);
+}
+
+#img {
+    background-color: #d14949;
+}
+#txt{
+    background-color: #d14949;
+    padding: 40px;
+    color: rgb(67, 27, 133);
+}
+img {
+    margin: 10px;
+}
+
+#box1{
+    background-color: #cb5ae7;
+    padding: 40px;
+}
